@@ -75,7 +75,6 @@ const styles = StyleSheet.create({
 
     pageHeader: {
         color: "#212121",
-
         fontFamily: "Roboto",
         fontWeight: "500",
         fontSize: 30,

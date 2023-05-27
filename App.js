@@ -5,7 +5,9 @@ import RegistrationScreen from "./Components/Screens/RegistrationScreen";
 
 export default function App() {
     const [fontsLoaded] = useFonts({
-        Roboto: require("./assets/fonts/Roboto/Roboto-Black.ttf"),
+        'Roboto-Bold': require('./assets/fonts/Roboto/Roboto-Bold.ttf'),
+        'Roboto-Medium': require('./assets/fonts/Roboto/Roboto-Medium.ttf'),
+        'Roboto-Regular': require('./assets/fonts/Roboto/Roboto-Regular.ttf'),
     });
 
     if (!fontsLoaded) {
